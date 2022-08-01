@@ -1,0 +1,443 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Buildo | Public Beta</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+<!---- HEADER ---->
+<section class="header" id="HOME">
+<header>
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-book-reader fa-2x mx-3"></i>Buildo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-align-right text-light"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#HOME">HOME
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#ABOUT">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#BLOGS">BLOGS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#PRICE">PRICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#HOST">HOST</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#CONTACT">CONTACT</a>
+            </li>
+                          <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="extra/sign.html" class="nav-link">REGISTER</a>
+                <div class="dropdown-content">   
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-7 col-sm-12  text-white">
+          <h6>Buildo Public Beta</h6>
+          <h1>Private Server</h1>
+          <p>
+            Buildo is a free-to-play sandbox MMO game with almost endless possibilities for world creation, customization and having fun with your friends. Enjoy thousands of items, challenges and events.
+          </p>
+          <a href="https://discord.gg/3xnFVh6Md2" class="btn btn-light px-5 py-2 primary-btn">
+            Join Us 
+          </a>
+        </div>
+        <div class="col-md-5 col-sm-12  h-25">
+          <img src="photo/logo_header.png" alt="Book"/>
+        </div>
+      </div>
+    </div>
+  </header>
+</section>
+
+<!---- ABOUT ---->
+<section id="ABOUT">
+  <section class="services">
+    <div class="container grid-3 center">
+      <div>
+        <i class="fab fa-youtube fa-3x"></i>
+        <h3>Community</h3>
+        <p>Buildo Private Server has one of the best private server communities of all time, with alot of people working together, we have achieved where we are today.</p>
+      </div>
+      <div>
+        <i class="fas fa-chalkboard-teacher fa-3x"></i>
+        <h3>Great Ecosystem</h3>
+        <p>Our ecosystem and server infrastructure is strong. With everything connected with each other (server, discord, website) our team is instantly notified about any issues.</p>
+      </div>
+      <div>
+        <i class="fas fa-briefcase fa-3x"></i>
+        <h3>24/7 Live Support</h3>
+        <p>Our support team has more than 15 members from different countries around the world ​ with whom you can contact with at any time.</p>
+      </div>
+    </div>
+  </section>
+  <section class="about bg-light">
+    <div class="container">
+      <div class="grid-2">
+        <div class="center">
+          <i class="fas fa-laptop-code fa-10x"></i>
+        </div>
+        <div>
+          <h3>About Us</h3>
+          <p>Buildo stands for "A person of [mystery] that [keeps] you [guessing]". We chose this name because we always surprise our community with cool and unexpected updates. We provide our community with tons of awesome updates related to the game. We consist of hard-working people in the community, such as some of you guys out there. We strive to be the best at what we do</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!---- SUBSCRIBE ---->
+<section class="jaja-1">
+    <div class="container-5">
+  <div class="slider">
+    <div class="box1">
+    </div>
+    <div class="box2">
+    </div>
+    <div class="box3">
+    </div>
+    <div class="box4">
+    </div>
+    <div class="box5">
+    </div>
+    <div class="box6">
+    </div>
+    <div class="box7">
+    </div>
+  </div>
+</div>
+<div id="test"></div>
+</section>
+    <script>function rotate() {
+  var lastChild = $('.slider div:last-child').clone();
+  /*$('#test').html(lastChild)*/
+  $('.slider div').removeClass('firstSlide')
+  $('.slider div:last-child').remove();
+  $('.slider').prepend(lastChild)
+  $(lastChild).addClass('firstSlide')
+}
+
+window.setInterval(function(){
+  rotate()
+}, 4000);</script>
+
+<!---- HOST ---->
+<section id="HOST" class="jaja1">
+<div class="background">
+  <div class="container-4">
+    <div class="panel pricing-table">
+      
+      <div class="pricing-plan">
+        <img src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png" alt="" class="pricing-img">
+        <h2 class="pricing-header">WINDOW</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item">Beta Game</li>
+          <li class="pricing-features-item">Free to play</li>
+        </ul>
+        <span class="pricing-price">HOST</span>
+        <a href="https://discord.gg/yfXReJFtB2" class="pricing-button">Get it Now</a>
+      </div>
+      
+      <div class="pricing-plan">
+        <img src="https://s28.postimg.cc/ju5bnc3x9/plane.png" alt="" class="pricing-img">
+        <h2 class="pricing-header">ANDROID</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item">Beta Game</li>
+          <li class="pricing-features-item">Free to play</li>
+        </ul>
+        <span class="pricing-price">Virtual Host</span>
+        <a href="https://discord.gg/yfXReJFtB2" class="pricing-button is-featured">Get it Now</a>
+      </div>
+      
+      <div class="pricing-plan">
+        <img src="https://s21.postimg.cc/tpm0cge4n/space-ship.png" alt="" class="pricing-img">
+        <h2 class="pricing-header">IPHONE</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item">Beta Game</li>
+          <li class="pricing-features-item">Free to play</li>
+        </ul>
+        <span class="pricing-price">Surge 4</span>
+        <a href="https://discord.gg/yfXReJFtB2" class="pricing-button">Get it Now</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</section>
+    
+<!---- BLOGS ---->
+<section id="BLOGS" class="mama">
+        <div class="container-1">
+      <div class="card">
+        <div class="card-header">
+          <img src="photo/1-1-removebg-preview.png" alt="" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-teal">Joining</span>
+          <h4>Who do you want to be today??</h4>
+          <p>Buildo has growing trees at heart, but over its almost 5-years history, so many more new features have been added. Collect and combine fabric to sew unique outfits. Become the best chef using the cooking mechanics. Use Adventure pack to create quest-like worlds with mazes, traps and puzzles to challenge your friends.
+          </p>
+          <div class="user">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Outdoors-man-portrait_%28cropped%29.jpg" alt="" />
+            <div class="user-info">
+              <h5>@Jamew7</h5>
+              <small>2h ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <img src="photo/1-4-removebg-preview.png" alt="" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-purple">Place</span>
+          <h4>
+            Build & explore amazing worlds
+          </h4>
+          <p>Buildo lives and breathes thanks to the amazing community of players who come to play, create, educate and entertain each other. Growtopians chat in the game, as well as on dedicated Growtopia forums. To get advice, pro tips, latest news, share your fan art, or discuss updates and suggest new features, head to forums!
+          </p>
+          <div class="user">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSft5PLhaSb6QUdT0yRu3rjlam1Rt--WDJ6yQ&usqp=CAU" alt="" />
+            <div class="user-info">
+              <h5>@Mrsongo</h5>
+              <small>Yesterday</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <img src="photo/1-3-removebg-preview.png" alt="" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-pink">Community</span>
+          <h4>Free to play, a single currency can be earned</h4>
+          <p>Join a universe of unlimited worlds, all connected to each other. Create mind-bending worlds together with friends and fill them with anything your heart desires! 
+          <div class="user">
+            <img src="https://3.bp.blogspot.com/--sCpJJGYWEA/W2P4C51CYSI/AAAAAAAAQcI/LR4U_--Wf1E3wz7RLZtmwBPObm_ky9tQQCLcBGAs/s1600/beautiful-indian-women-photos-1.jpg" alt="" />
+            <div class="user-info">
+              <h5>@LinkTrader</h5>
+              <small>23 Dec 2020</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+    
+<!---- PRICE ---->
+<section id="PRICE" class="jaja">
+<section class="section-prices">
+<h2 class="section-header">Our Pricing</h2>
+<div class="list-boxs">
+	<div class="card starter">
+		<div class="head">
+			Roles
+		</div>
+		<div class="ticket">Depend on Roles</div>
+		<div class="body">
+			<p>
+				To pay you have to meet LBP#6407 in game and give them the diamond locks in real Growtopia. So DM them if you want to buy super surprise boxes!
+			</p>
+			<a href="https://discord.gg/3xnFVh6Md2" class="btn">Check Prices</a>
+		</div>
+	</div>
+	<div class="card standard">
+		<div class="head">
+			Assets
+		</div>
+		<div class="ticket">Depend on Assets</div>
+		<div class="body">
+			<p>
+				To pay you have to meet LBP#6407 in game and give them the diamond locks in real Growtopia. So DM them if you want to buy super surprise boxes!
+			</p>
+			<a href="https://discord.gg/3xnFVh6Md2" class="btn">Check Prices</a>
+		</div>
+	</div>
+	<div class="card premium">
+		<div class="head">
+			Legendary
+		</div>
+		<div class="ticket">Depend on Legend</div>
+		<div class="body">
+			<p>
+				To pay you have to meet LBP#6407 in game and give them the diamond locks in real Growtopia. So DM them if you want to buy super surprise boxes!
+			</p>
+			<a href="https://discord.gg/3xnFVh6Md2" class="btn">Check Prices</a>
+		</div>
+	</div>
+</div>
+</section>
+</section>
+    
+<!---- CONTACT ---->
+<section id="CONTACT">
+<div class="container-2">
+            <h1 class="mamam">Contact us</h1>
+            <div class="wrapper animated bounceInLeft">
+                <div class="company-info">
+                    <h3>Simple Form</h3>
+                    <ul>
+                        <li><i class="fa fa-road"></i>belgrade - serbia</li>
+                        <li><i class="fa fa-phone"></i> (555) 555-5555</li>
+                        <li><i class="fa fa-envelope"></i> frostystars7@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h3>Email us</h3>
+                    <form>
+                        <p>
+                            <label>Name</label>
+                            <input type="text" name="name">
+                        </p>
+                        <p>
+                            <label>Company</label>
+                            <input type="text" name="company">
+                        </p>
+                        <p>
+                            <label>Email</label>
+                            <input type="email" name="email">
+                        </p>
+                        <p>
+                            <label>Phone number</label>
+                            <input type="text" name="phone">
+                        </p>
+                        <p class="full">
+                            <label>Message</label>
+                            <textarea name="message" cols="5"></textarea>
+                        </p>
+                        <p class="full">
+                            <button type="submit">Submit</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!---- FOOTER ---->
+<footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>belgrade - serbia</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>9876543210 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>frostystars7@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="photo/logo_header.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>We have a 99% server uptime and most of the issues with the server are dealt with fairly quickly.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="extra/generate.html">Generate A Name</a></li>
+                                <li><a href="#ABOUT">ABOUT</a></li>
+                                <li><a href="#PRICE">SERVICES</a></li>
+                                <li><a href="extra/Portfilio.html">FORUMS</a></li>
+                                <li><a href="#CONTACT">CONTACT</a></li>
+                                <li><a href="#">LATEST NEWS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+<!---- SCRIPT ---->
+<script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script> 
+    </body>
+</html>
